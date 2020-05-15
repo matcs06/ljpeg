@@ -24,11 +24,11 @@ Building without flex will fail and pollute the codebase.
 	in you cmd in the ljpeg folder type "python" to go to the python compiler
 	And then type "import ljpeg". You will see that it has generated a new file called ljpeg.pyc, thats how you know it worked.
 	`
-3.1. It will work in the same way in case you want to use in you python code
-	You first have to import: "import ljpeg"
-	The loaded is a matrix of type uint16.  Typically you want to convert that
-	to float for subsequent processing.
+3.1 It will work in the same way in case you want to use in you python code
+	You first have to import: "import ljpeg". Example:
 	```
+	import ljpeg
+	
 	x = ljpeg.read(path).astype('float')
 	```
 
