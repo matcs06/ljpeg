@@ -17,15 +17,15 @@ Building without flex will fail and pollute the codebase.
 2. Produce the jpeg binary.
 	```
 	cd jpegdir; make
-
+	Obs - You have to make sure that you have installed some dependece like: flex (apt-get install flex), otherwise it will not work
 	```
-3. In your python code:
+3. Generating the ljpeg.pyc file to use the lib standalone :
 	```
-	from ljpeg import ljpeg
-
-	x = ljpeg.read(path)
-	```
-
+	in you cmd in the ljpeg folder type "python" to go to the python compiler
+	And then type "import ljpeg". You will see that 
+	`
+3.1. It will work in the same way in case you want to use in you python code
+	You first have to import: "import ljpeg"
 	The loaded is a matrix of type uint16.  Typically you want to convert that
 	to float for subsequent processing.
 	```
