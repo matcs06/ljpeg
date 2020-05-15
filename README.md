@@ -24,7 +24,7 @@ Building without flex will fail and pollute the codebase.
 	in you cmd in the ljpeg folder type "python" to go to the python compiler
 	And then type "import ljpeg". You will see that it has generated a new file called ljpeg.pyc, thats how you know it worked.
 	`
-3.1 It will work in the same way in case you want to use in you python code
+4. It will work in the same way in case you want to use in you python code
 	You first have to import: "import ljpeg". Example:
 	```
 	import ljpeg
@@ -59,7 +59,7 @@ Building without flex will fail and pollute the codebase.
 		image = image.reshape((H, W))
 	```
 
-4. Using ljpeg.py standalone:
+5. Using ljpeg.py standalone:
 	- Convert to TIFF (requires the .ics file in the same directory as LJPEG)
 	```
 	./ljpeg.py cases/benigns/benign_01/case0029/C_0029_1.LEFT_CC.LJPEG output.tiff
