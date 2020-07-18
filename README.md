@@ -23,6 +23,7 @@ Building without flex will fail and pollute the codebase.
 	```
 	in you cmd in the ljpeg folder type "python" to go to the python compiler
 	And then type "import ljpeg". You will see that it has generated a new file called ljpeg.pyc, thats how you know it worked.
+	##If you are using python 3, then you can o "import ljpeg" without getting into the python compiler, direct in the command line.
 	`
 4. It will work in the same way in case you want to use in you python code
 	You first have to import: "import ljpeg". Example:
